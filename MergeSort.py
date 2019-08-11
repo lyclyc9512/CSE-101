@@ -28,9 +28,3 @@ def MergeSort(A):
                 j += 1
             i += 1
         return A
-
-A = [-12, 10, 1, 5, 24, -1, 100, -50, 21, 10, 55]
-print()
-MergeSort(A)
-for x in range(len(A)):
-    print(A[x])
